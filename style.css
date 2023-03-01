@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(images/ironman.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(images/captain.jpg);
+  min-height: 600px;
+}
+.pimg3 {
+  background-image: url(images/thor.jpg);
+  min-height: 600px;
+}
+.pimg4 {
+  background-image: url(images/sp.jpg);
+  min-height: 100%;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 0lh;
+}
+.textBg {
+  background-color: #313534;
+  color: aliceblue;
+  padding: 20px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #121213;
+  color: #f5f1f1;
+}
+.section-dark {
+  background-color: #b0bd05;
+  color: #f0e9e9;
+}
+.section-lighter {
+  background-color: #1f5b66;
+  color: #c7c4c4;
+}
+.section-light {
+  top: 50%;
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.section-dark {
+  top: 50%;
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.section-lighter {
+  top: 50%;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
